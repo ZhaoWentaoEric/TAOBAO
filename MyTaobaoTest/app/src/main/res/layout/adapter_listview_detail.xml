@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+  >
+<!--评价适配器-->
+    
+    <ImageView 
+        android:id="@+id/icon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/ic_launcher"
+        />
+
+    <TextView
+        android:id="@+id/name_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/icon"
+        android:textColor="@color/tv_Gray"
+        android:text="sisters公主阁" />
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textColor="@color/tv_Gray"
+        android:layout_below="@+id/icon"
+        android:layout_margin="10dp"
+        android:text="质量很好66666666666666666666666666666666666666666666666666666666666666666666666" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/content"
+        android:layout_marginLeft="10dp"
+        android:text="2018-11-05 三人组"
+        android:textColor="@color/tv_Gray" />
+
+</RelativeLayout>

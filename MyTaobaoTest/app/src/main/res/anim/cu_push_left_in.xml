@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" >
+    <translate
+        android:duration="350"
+        android:fromXDelta="-100%p"
+        android:toXDelta="0" />
+</set>
+<!--
+alpha 渐变透明度
+scale 渐变尺寸伸缩动画效果
+translate 画面转换位置移动动画效果
+rotate 画面转移旋转动画效果
+
+
+
+fromxdelta，fromxdelta 动画开始前x和y的位置
+toxDElata 动画结束位置
+duration 动画持续时间
+fillAfter true保持动画结束时最后状态
+
+-->
